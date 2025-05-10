@@ -18,6 +18,10 @@ public class MethodInitialize {
         System.out.println(card.id);
         System.out.println(card.name);
 
+        Constructor con = new Constructor(10,"Zin");
+        System.out.println(con.age);
+        System.out.println(con.name);
+
     }
 
 }
